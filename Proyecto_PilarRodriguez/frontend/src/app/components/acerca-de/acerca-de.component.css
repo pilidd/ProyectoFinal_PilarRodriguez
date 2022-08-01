@@ -1,0 +1,66 @@
+.row{
+    padding:15px;
+    background: linear-gradient(35deg,#080433,#33348a);
+    display: inline-flex;
+}
+
+div{
+    
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+#name{
+    font-weight: bold;
+    
+    margin-top: 1%;
+     
+    font-size: 30px;
+}
+#info{
+    display: inline-flex;
+    margin-left: 43%;
+    margin-top: -1%;
+    
+}
+#name-info{
+    display: inline-flex;
+    flex-direction: column;
+     
+    font-size: 30px;
+    margin-left: -28%;
+
+}
+
+/*foto-nombres perfil */
+
+@media (min-width: 576px){
+    #ProfilePhoto{
+        position: relative;        
+        border-radius: 100%;
+        box-shadow: 1px 1px 1px rgb(43, 42, 42);
+        left: 20%;
+        bottom: 95px;
+         
+    }
+}
+
+@media (max-width: 575px){
+    #ProfilePhoto{        
+        position: relative;        
+        border-radius: 100%;
+        width: 20em;
+        top: -100px;
+    }
+    #name-info{
+        position: relative;
+
+    }
+    #name{
+        font-weight: bold;
+          
+    }
+}

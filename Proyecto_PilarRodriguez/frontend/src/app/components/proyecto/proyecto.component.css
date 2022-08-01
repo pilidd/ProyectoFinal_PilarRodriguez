@@ -1,0 +1,21 @@
+.row {
+    padding:20px;
+    background-image: url(https://img.freepik.com/vector-gratis/copia-espacio-fondo-blanco-ondulado_23-2148845471.jpg?w=2000); 
+
+}
+
+.contenedor{
+    width: auto;
+
+}
+
+.texto, .imagen{
+    display: inline-block;
+    text-align: justify;
+}
+
+.img-proyecto1{
+    box-shadow: 10px 20px 60px #300d44; 
+
+    border-radius: 10px;
+}

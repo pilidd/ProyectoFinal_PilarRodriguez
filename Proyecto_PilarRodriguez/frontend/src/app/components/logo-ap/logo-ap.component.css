@@ -1,0 +1,67 @@
+#logoAP{
+    width: 150px;
+
+}   
+img{
+    width: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes{
+    margin-right: 2em;
+    
+     
+    
+}
+
+
+
+.boton{
+    margin-left: 40px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 6px;
+    border: 2px solid #ffffff;
+    
+}
+  .boton:hover{
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+
+.redes img{
+    margin: 0,5em;
+    margin-left: 5px;
+}
+
+  /* celular   */
+  @media (max-width: 576px){ 
+        .container {
+            flex-direction: column;
+            align-items: stretch;
+    }
+        .redes{
+          display:flex;
+          justify-content: space-around;
+          align-items: center;
+          margin-right: -1em;
+        }  
+      
+      
+
+
+    }
+  
+    
+  
+ 
